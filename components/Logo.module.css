@@ -1,0 +1,78 @@
+.logoLink {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: opacity 0.3s ease;
+}
+
+.logoLink:hover .logoContainer {
+  opacity: 0.8;
+}
+
+.logoIcon {
+  width: 45px;
+  height: 45px;
+  color: var(--header-text);
+  flex-shrink: 0;
+}
+
+.logoText {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.logoMain {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--header-text);
+  letter-spacing: 0.5px;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.logoSub {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--header-text);
+  letter-spacing: 1px;
+  opacity: 0.9;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+@media (max-width: 768px) {
+  .logoIcon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .logoMain {
+    font-size: 1.1rem;
+  }
+
+  .logoSub {
+    font-size: 0.7rem;
+  }
+
+  .logoContainer {
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* .logoText {
+    display: none;
+  } */
+
+  .logoIcon {
+    width: 40px;
+    height: 40px;
+  }
+}
+

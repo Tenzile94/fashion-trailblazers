@@ -1,0 +1,163 @@
+.showcase {
+  padding: 6rem 2rem;
+  background-color: var(--background);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--hero-bg);
+  margin-bottom: 4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.womenGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.womanCard {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  cursor: pointer;
+}
+
+.womanCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.cardHeader {
+  background: linear-gradient(135deg, var(--hero-bg) 0%, var(--accent) 100%);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.womanName {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.brandName {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  opacity: 0.95;
+}
+
+.founded {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.cardBody {
+  padding: 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.achievements {
+  margin-top: auto;
+}
+
+.achievementsTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--hero-bg);
+  margin-bottom: 1rem;
+}
+
+.achievementsList {
+  list-style: none;
+  padding: 0;
+}
+
+.achievementsList li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: #555;
+  line-height: 1.6;
+}
+
+.achievementsList li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.readMore {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+  color: var(--hero-bg);
+  font-weight: 600;
+  text-align: center;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.womanCard:hover .readMore {
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .showcase {
+    padding: 3rem 1.5rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .womenGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .womanName {
+    font-size: 1.5rem;
+  }
+  
+  .brandName {
+    font-size: 1.1rem;
+  }
+}
+
