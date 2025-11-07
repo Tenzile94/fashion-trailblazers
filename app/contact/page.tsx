@@ -12,7 +12,7 @@ export default function ContactPage() {
           <Link href="/" className={styles.backLink}>← Back to Home</Link>
           
           <h1 className={styles.title}>Contact Us</h1>
-          <p className={styles.subtitle}>We'd love to hear from you. Get in touch with us.</p>
+          <p className={styles.subtitle}>We&apos;d love to hear from you. Get in touch with us.</p>
 
           <div className={styles.content}>
             <section className={styles.section}>

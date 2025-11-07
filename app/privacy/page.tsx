@@ -18,7 +18,7 @@ export default function PrivacyPage() {
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>1. Introduction</h2>
               <p className={styles.text}>
-                Style Trailblazers ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website.
+                Style Trailblazers (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website.
               </p>
             </section>
 
@@ -86,7 +86,7 @@ export default function PrivacyPage() {
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>9. Contact Us</h2>
               <p className={styles.text}>
-                If you have any questions about this Privacy Policy, please contact us through our website's contact form.
+                If you have any questions about this Privacy Policy, please contact us through our website&apos;s contact form.
               </p>
             </section>
           </div>

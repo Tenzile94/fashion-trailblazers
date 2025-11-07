@@ -12,7 +12,7 @@ export default function NotFound() {
           <h1 className={styles.title}>404</h1>
           <h2 className={styles.subtitle}>Brand Not Found</h2>
           <p className={styles.message}>
-            The brand you're looking for doesn't exist.
+            The brand you&apos;re looking for doesn&apos;t exist.
           </p>
           <Link href="/" className={styles.link}>
             ← Back to Home

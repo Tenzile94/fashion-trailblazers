@@ -25,7 +25,7 @@ export default function TermsPage() {
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>2. Use License</h2>
               <p className={styles.text}>
-                Permission is granted to temporarily access the materials on Style Trailblazers' website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+                Permission is granted to temporarily access the materials on Style Trailblazers&apos; website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
               </p>
               <ul className={styles.list}>
                 <li>Modify or copy the materials</li>
@@ -56,21 +56,21 @@ export default function TermsPage() {
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>5. Disclaimer</h2>
               <p className={styles.text}>
-                The materials on Style Trailblazers' website are provided on an 'as is' basis. Style Trailblazers makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+                The materials on Style Trailblazers&apos; website are provided on an &apos;as is&apos; basis. Style Trailblazers makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
               </p>
             </section>
 
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>6. Limitations</h2>
               <p className={styles.text}>
-                In no event shall Style Trailblazers or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Style Trailblazers' website.
+                In no event shall Style Trailblazers or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Style Trailblazers&apos; website.
               </p>
             </section>
 
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>7. Accuracy of Materials</h2>
               <p className={styles.text}>
-                The materials appearing on Style Trailblazers' website could include technical, typographical, or photographic errors. Style Trailblazers does not warrant that any of the materials on its website are accurate, complete, or current.
+                The materials appearing on Style Trailblazers&apos; website could include technical, typographical, or photographic errors. Style Trailblazers does not warrant that any of the materials on its website are accurate, complete, or current.
               </p>
             </section>
 
@@ -91,7 +91,7 @@ export default function TermsPage() {
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>10. Contact Information</h2>
               <p className={styles.text}>
-                If you have any questions about these Terms of Service, please contact us through our website's contact form.
+                If you have any questions about these Terms of Service, please contact us through our website&apos;s contact form.
               </p>
             </section>
           </div>

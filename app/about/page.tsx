@@ -41,13 +41,13 @@ export default function AboutPage() {
                 <div className={styles.trailblazerItem}>
                   <h3 className={styles.trailblazerName}>Miuccia Prada</h3>
                   <p className={styles.trailblazerDesc}>
-                    The Italian intellectual who transformed her family's leather goods company into a global luxury powerhouse with minimalist sophistication.
+                    The Italian intellectual who transformed her family&apos;s leather goods company into a global luxury powerhouse with minimalist sophistication.
                   </p>
                 </div>
                 <div className={styles.trailblazerItem}>
                   <h3 className={styles.trailblazerName}>Donatella Versace</h3>
                   <p className={styles.trailblazerDesc}>
-                    The bold visionary who carried forward her brother's legacy, making Versace synonymous with glamour and red-carpet fashion.
+                    The bold visionary who carried forward her brother&apos;s legacy, making Versace synonymous with glamour and red-carpet fashion.
                   </p>
                 </div>
                 <div className={styles.trailblazerItem}>
@@ -69,7 +69,7 @@ export default function AboutPage() {
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>Explore More</h2>
               <p className={styles.text}>
-                Visit our brand pages to learn more about each designer's unique journey, their iconic creations, and the lasting impact they've made on fashion. Discover the stories behind the brands that continue to shape how we think about style, luxury, and design.
+                Visit our brand pages to learn more about each designer&apos;s unique journey, their iconic creations, and the lasting impact they&apos;ve made on fashion. Discover the stories behind the brands that continue to shape how we think about style, luxury, and design.
               </p>
               <div className={styles.brandLinks}>
                 <Link href="/brands/chanel" className={styles.brandLink}>Chanel</Link>
